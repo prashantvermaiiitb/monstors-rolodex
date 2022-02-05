@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import LifeCycleDemo from './components/lifecycle/lifecycle.component';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <>
+      <App />
+      <LifeCycleDemo />
+    </>
   </React.StrictMode>,
   document.getElementById('root')
 );
