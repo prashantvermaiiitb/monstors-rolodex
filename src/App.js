@@ -15,7 +15,7 @@ class App extends Component {
     fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json()).then(users => this.setState({ monstors: [...users] }));
   }
   render() {
-
+    console.log('rendered....');
     const { monstors, searchInput } = this.state;
     const filteredMonstors = monstors.filter(monstor => monstor.name.toLowerCase().includes(searchInput.toLocaleLowerCase()))
 
