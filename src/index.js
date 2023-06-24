@@ -5,16 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LifeCycleDemo from './components/lifecycle/lifecycle.component';
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <>
-//       <App />
-//       <LifeCycleDemo />
-//     </>
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(<React.StrictMode>
